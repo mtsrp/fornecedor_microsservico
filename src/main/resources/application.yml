@@ -1,19 +1,7 @@
 
 server:
   port: 8081
-  
-spring:
-  application:
-    name: 'fornecedor'
-  datasource:
-    url: jdbc:mysql://localhost:3306/fornecedor
-    username: root
-    password: root
-    driver-class-name: com.mysql.jdbc.Driver
-  jpa:
-    hibernate:
-      ddl-auto: create
-      
+   
 eureka:
   client:
     fetch-registry: true
